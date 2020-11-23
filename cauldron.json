@@ -1,7 +1,24 @@
 {
+  "config": {
+    "manifest": {
+      "override": {
+         "url": "git@github.com:jdominguezr/movie-list-miniapp.git",
+         "type": "partial"
+       }
+     },
+     "codePush": {
+      "entriesLimit": 10
+    },
+    "requiredErnVersion": ">=0.26.0"
+  },
   "nativeApps": [
     {
-      "name": "POCMiniApp"
+      "name": "POCApp",
+      "platforms": [
+        {
+          "name": "android"
+        }
+      ]
     }
   ]
 }

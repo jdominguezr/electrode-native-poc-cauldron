@@ -16,11 +16,7 @@
       },
       {
         "name": "git",
-        "url": "git@github.com:username/myweatherapp-android-container.git"
-      },
-      {
-        "name": "maven",
-        "url": "http://repository.example.com:8081/nexus/content/repositories"
+        "url": "git@github.com:jdominguezr/movie-list-miniapp.git"
       }
     ]
   }
