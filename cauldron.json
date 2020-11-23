@@ -1,7 +1,7 @@
 {
   "nativeApps": [
     {
-      "name": "movieapp",
+      "name": "MovieListMiniapp",
       "platforms": [
         {
           "name": "android",
