@@ -12,20 +12,20 @@
               "isReleased": false,
               "binary": null,
               "yarnlock": "96323be84ae946d553a3b30365852bedcc7dd277",
-              "nativeDeps": [
-                "react-native@0.48.3",
-                "react-native-electrode-bridge@1.5.7",
-                "react-native-ernmovie-api@0.0.9",
-                "react-native-ernnavigation-api@0.0.3"
-              ],
-              "miniApps": {
-                "container": [
+              "containerVersion": "1.0.1",
+              "container": {
+                "jsApiImpls": [],
+                "miniApps": [
                   "movielistminiapp@0.0.4",
                   "moviedetailsminiapp@0.0.3"
                 ],
-                "codePush": []
-              },
-              "containerVersion": "1.0.1"
+                "nativeDeps": [
+                  "react-native@0.48.3",
+                  "react-native-electrode-bridge@1.5.7",
+                  "react-native-ernmovie-api@0.0.9",
+                  "react-native-ernnavigation-api@0.0.3"
+                ]
+              }
             }
           ],
           "config": {
@@ -43,20 +43,20 @@
               "isReleased": false,
               "binary": null,
               "yarnlock": "96323be84ae946d553a3b30365852bedcc7dd277",
-              "nativeDeps": [
-                "react-native@0.48.3",
-                "react-native-electrode-bridge@1.5.7",
-                "react-native-ernmovie-api@0.0.9",
-                "react-native-ernnavigation-api@0.0.3"
-              ],
-              "miniApps": {
-                "container": [
+              "containerVersion": "1.0.1",
+              "container": {
+                "jsApiImpls": [],
+                "miniApps": [
                   "movielistminiapp@0.0.4",
                   "moviedetailsminiapp@0.0.3"
                 ],
-                "codePush": []
-              },
-              "containerVersion": "1.0.1"
+                "nativeDeps": [
+                  "react-native@0.48.3",
+                  "react-native-electrode-bridge@1.5.7",
+                  "react-native-ernmovie-api@0.0.9",
+                  "react-native-ernnavigation-api@0.0.3"
+                ]
+              }
             }
           ],
           "config": {
@@ -67,5 +67,6 @@
         }
       ]
     }
-  ]
+  ],
+  "schemaVersion": "1.0.0"
 }
