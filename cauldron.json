@@ -1,69 +1,69 @@
 {
-  "config": {
-    "manifest": {
-      "override": {
-         "url": "git@github.com:jdominguezr/movie-list-miniapp.git",
-         "type": "partial"
-       }
-     },
-     "codePush": {
-      "entriesLimit": 10
-    },
-    "requiredErnVersion": ">=0.26.0"
-  },
   "nativeApps": [
     {
-      "name": "MyWeatherApp",
+      "name": "movieapp",
       "platforms": [
         {
           "name": "android",
           "versions": [
             {
               "name": "1.0.0",
-              "isReleased": true,
+              "ernPlatformVersion": "1000.0.0",
+              "isReleased": false,
               "binary": null,
-              "yarnLocks": {
-                "container": "3f5f0e4bac859b9e83adacacc2141e594ac1403d"
-              },
-              "codePush": {
-                "Production": [
-                  {
-                    "metadata": {
-                      "deploymentName": "Production",
-                      "isMandatory": true,
-                      "appVersion": "1.0.0",
-                      "size": 1877208,
-                      "releaseMethod": "Release",
-                      "label": "v16",
-                      "releasedBy": "whoever@whatever.com",
-                      "rollout": 100
-                    },
-                    "miniapps": [
-                      "movielistminiapp@0.0.11",
-                      "https://github.com/electrode-io/moviedetails-miniapp#0.0.9"
-                    ],
-                    "jsApiImpls": []
-                  }
-                ]
-              },
-              "containerVersion": "1.0.9",
-              "container": {
-                "nativeDeps": [
-                  "react-native-code-push@5.2.1",
-                  "react-native-ernmovie-api@0.0.9",
-                  "react-native-ernnavigation-api@0.0.4",
-                  "react-native@0.52.2",
-                  "react-native-electrode-bridge@1.5.9"
+              "yarnlock": "96323be84ae946d553a3b30365852bedcc7dd277",
+              "nativeDeps": [
+                "react-native@0.48.3",
+                "react-native-electrode-bridge@1.5.7",
+                "react-native-ernmovie-api@0.0.9",
+                "react-native-ernnavigation-api@0.0.3"
+              ],
+              "miniApps": {
+                "container": [
+                  "movielistminiapp@0.0.4",
+                  "moviedetailsminiapp@0.0.3"
                 ],
-                "miniApps": [
-                  "movielistminiapp@0.0.10",
-                  "https://github.com/electrode-io/moviedetails-miniapp#0.0.9"
-                ],
-                "jsApiImpls": [],
-                "ernPlatformVersion": "0.24.0"
-              }
+                "codePush": []
+              },
+              "containerVersion": "1.0.1"
             }
-          ]
+          ],
+          "config": {
+            "containerGenerator": {
+              "containerVersion": "1.0.1"
+            }
+          }
+        },
+        {
+          "name": "ios",
+          "versions": [
+            {
+              "name": "1.0.0",
+              "ernPlatformVersion": "1000.0.0",
+              "isReleased": false,
+              "binary": null,
+              "yarnlock": "96323be84ae946d553a3b30365852bedcc7dd277",
+              "nativeDeps": [
+                "react-native@0.48.3",
+                "react-native-electrode-bridge@1.5.7",
+                "react-native-ernmovie-api@0.0.9",
+                "react-native-ernnavigation-api@0.0.3"
+              ],
+              "miniApps": {
+                "container": [
+                  "movielistminiapp@0.0.4",
+                  "moviedetailsminiapp@0.0.3"
+                ],
+                "codePush": []
+              },
+              "containerVersion": "1.0.1"
+            }
+          ],
+          "config": {
+            "containerGenerator": {
+              "containerVersion": "1.0.1"
+            }
+          }
         }
       ]
     }
