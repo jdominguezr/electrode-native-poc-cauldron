@@ -1,6 +1,7 @@
 {
-    "nativeApps": [
-      
-    ]
-  }
-  
+  "nativeApps": [
+    {
+      "name": "POCMiniApp"
+    }
+  ]
+}

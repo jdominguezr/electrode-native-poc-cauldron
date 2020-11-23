@@ -1,0 +1,27 @@
+{
+  "containerGenerator": {
+    "pipeline": [
+      {
+        "name": "build-config",
+        "extra": {
+          "configurations": [
+            "ElectrodeContainer-Debug",
+            "ElectrodeContainer-Release"
+          ],
+          "settings": {
+            "ENABLE_BITCODE": "NO",
+            "DEBUG_INFORMATION_FORMAT": "dwarf-with-dsym"
+          }
+        }
+      },
+      {
+        "name": "git",
+        "url": "git@github.com:username/myweatherapp-android-container.git"
+      },
+      {
+        "name": "maven",
+        "url": "http://repository.example.com:8081/nexus/content/repositories"
+      }
+    ]
+  }
+}
