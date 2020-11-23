@@ -1,15 +1,6 @@
 {
   "nativeApps": [
     {
-      "name": "MovieListMiniapp",
-      "platforms": [
-        {
-          "name": "android",
-          "versions": []
-        }
-      ]
-    },
-    {
       "name": "PoCApp",
       "platforms": [
         {
