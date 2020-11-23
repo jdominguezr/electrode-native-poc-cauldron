@@ -8,6 +8,29 @@
           "versions": []
         }
       ]
+    },
+    {
+      "name": "PoCApp",
+      "platforms": [
+        {
+          "name": "android",
+          "versions": [
+            {
+              "name": "0.0.1",
+              "binary": null,
+              "codePush": {},
+              "container": {
+                "jsApiImpls": [],
+                "miniApps": [],
+                "nativeDeps": []
+              },
+              "isReleased": false,
+              "nativeDeps": [],
+              "yarnLocks": {}
+            }
+          ]
+        }
+      ]
     }
   ],
   "schemaVersion": "3.0.0"
