@@ -30,11 +30,7 @@
               }
             }
           ],
-          "config": {
-            "containerGenerator": {
-              "containerVersion": "1.0.1"
-            }
-          }
+          "containerVersion": "1.0.1"
         },
         {
           "name": "ios",
@@ -63,14 +59,10 @@
               }
             }
           ],
-          "config": {
-            "containerGenerator": {
-              "containerVersion": "1.0.1"
-            }
-          }
+          "containerVersion": "1.0.1"
         }
       ]
     }
   ],
-  "schemaVersion": "2.0.0"
+  "schemaVersion": "3.0.0"
 }
