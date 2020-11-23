@@ -16,7 +16,12 @@
       "name": "POCApp",
       "platforms": [
         {
-          "name": "android"
+          "name": "android",
+          "versions": [
+            {
+              "name": "1.0.0"
+            }
+          ]
         }
       ]
     }
