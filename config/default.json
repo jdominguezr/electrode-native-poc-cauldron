@@ -4,7 +4,7 @@
   },
   "manifest": {
     "override": {
-      "url": "git@github.com:jdominguezr/electrode-poc-manifest.git,
+      "url": "git@github.com:jdominguezr/electrode-poc-manifest.git",
       "type": "partial"
     }
   },
