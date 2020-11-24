@@ -1,4 +1,11 @@
 {
+  "config": {
+  "manifest": {
+    "override": {
+      "url": "git@github.com:user/ern-custom-manifest.git",
+      "type": "partial"
+    }
+  },
   "bundleStore": {
     "url": "localhost:3000"
   }
