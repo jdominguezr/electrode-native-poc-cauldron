@@ -2,7 +2,7 @@
   "config": {
   "manifest": {
     "override": {
-      "url": "git@github.com:user/ern-custom-manifest.git",
+      "url": "git@github.com:jdominguezr/electrode-poc-manifest.git",
       "type": "partial"
     }
   },
