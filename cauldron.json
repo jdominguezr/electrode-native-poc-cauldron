@@ -13,7 +13,8 @@
               "container": {
                 "jsApiImpls": [],
                 "miniApps": [
-                  "movie-list-miniapp-poc@0.0.1"
+                  "movie-list-miniapp-poc@0.0.1",
+                  "damys-miniapp@0.0.1"
                 ],
                 "nativeDeps": [
                   "ernnavigation-api-impl-native@1.5.2",
