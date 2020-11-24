@@ -1,12 +1,15 @@
 {
-  "config": {
+  "bundleStore": {
+    "url": "localhost:3000"
+  },
   "manifest": {
     "override": {
       "url": "git@github.com:jdominguezr/electrode-poc-manifest.git",
       "type": "partial"
     }
   },
-  "bundleStore": {
-    "url": "localhost:3000"
-  }
+  "codePush": {
+    "entriesLimit": 10
+  },
+  "requiredErnVersion": ">=0.26.0"
 }
