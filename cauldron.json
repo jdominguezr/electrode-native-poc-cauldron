@@ -14,7 +14,7 @@
               "container": {
                 "jsApiImpls": [],
                 "miniApps": [
-                  "movie-list-miniapp-poc@0.0.1",
+                  "movie-list-miniapp-poc@0.0.2",
                   "damys-miniapp@0.0.1"
                 ],
                 "nativeDeps": [
@@ -23,7 +23,7 @@
                   "react-native-electrode-bridge@1.5.27",
                   "react-native@0.63.3"
                 ],
-                "ernVersion": "0.45.1"
+                "ernVersion": "0.45.0"
               },
               "isReleased": false,
               "nativeDeps": [],

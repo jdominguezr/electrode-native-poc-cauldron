@@ -3444,10 +3444,10 @@ mkdirp@^0.5.1, mkdirp@~0.5.1:
   dependencies:
     minimist "^1.2.5"
 
-movie-list-miniapp-poc@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/movie-list-miniapp-poc/-/movie-list-miniapp-poc-0.0.1.tgz#86c0be5f0c10f0044a20c8e1781b66d827ad2f97"
-  integrity sha512-muIFhEdbEmWMx2WVYOZ9+nk1gAQjymP8Ilah0Gcd0Dj004s1qSW42q0NDPzAJnpHJ7mxn57O4kp588B8vD57FA==
+movie-list-miniapp-poc@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/movie-list-miniapp-poc/-/movie-list-miniapp-poc-0.0.2.tgz#01d474e2e6f451e7e059d3e90586b08a271741d5"
+  integrity sha512-wKlGhi9xKWJOHykmCtYRH9elVrf4+i4DML9WteEyZ2Aw7SenLnxVEXsYeLMsZ4LHLwzg/wz/AGbyy0wguFnYAQ==
   dependencies:
     ern-navigation "1.2.3"
     react "16.13.1"
